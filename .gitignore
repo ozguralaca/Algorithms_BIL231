@@ -1,4 +1,20 @@
-queue/*
+# Object Files 
+*.o
+*.ko
+*.obj
+*.elf
+
+# Executables 
+*.exe 
+*.out 
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Files 
+queue/* 
+
 
 stacks_buffer_functions/*
 
