@@ -14,8 +14,5 @@
 
 # Files 
 queue/* 
-
-
 stacks_buffer_functions/*
 
-string_command_functions/*
