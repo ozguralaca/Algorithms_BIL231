@@ -108,3 +108,4 @@ void display(struct stack *p)
 		i--;
 	}
 }
+
