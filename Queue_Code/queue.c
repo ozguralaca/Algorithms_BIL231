@@ -71,7 +71,7 @@ void enqueue(struct queue *p, int data)
 {
 	if( p->counter == SIZE )
 	{
-		printf("\nWarning!!! Queue is overflows.\n");
+		printf("\nWarning!!! Queue is overflow.\n");
 		printf("Before insert operation, get data in queue to empty queue.\n");			
 	}
 	else
@@ -89,7 +89,7 @@ void dequeue(struct queue *p)
 {
 	if( p->counter == 0 )
 	{
-		printf("\nWarning!!! Queue is underflows.\n");
+		printf("\nWarning!!! Queue is underflow.\n");
 		printf("Before get operation, insert data in queue array.\n");
 	}
 	else 
