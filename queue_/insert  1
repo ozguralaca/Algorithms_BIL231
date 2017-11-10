@@ -1,0 +1,66 @@
+insert  1
+s = false 
+f = 0
+r = 0
+data[0] = 1
+
+insert 2
+s = false 
+f = 0
+r = 1
+data[1] = 2
+
+insert 3
+s = false 
+f = 0
+r = 2 
+data[2] = 3
+
+insert 4 
+s = false 
+f = 0
+r = 3 
+data[3] = 4 
+
+insert 5 
+s = false 
+f = 0
+r = 4 
+data[4] = 5 
+
+insert 6 
+s = true
+r = -1 
+	insert 6 
+	s = true
+	f = 1
+	r = 0 
+	data[0] = 6
+
+insert 7 
+s = true
+f = 2
+r = 1
+data[1] = 7
+
+
+insert 8
+s = true
+f = 3
+r = 2
+data[2] = 8
+
+
+insert 9
+s = true
+f = 4
+r = 3
+data[3] = 7
+
+
+
+insert 10
+s = true
+f = 5
+r = 4
+data[4] = 7
