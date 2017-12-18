@@ -1,3 +1,6 @@
+/*
+ * Set implemented with array.
+ */
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -8,10 +11,14 @@ struct set{
 	int data_count;	
 };
 
-void init_set(struct set *p);
+struct set *init_set(struct set *p);
 void display_set(struct set *p, int s);
 int set_insert(struct set *p, int data);
 int set_delete(struct set *p, int data);
+int set_union(struct set *p1, struct set *p2);
+int set_intersect(struct set *p1, struct set *p2);
+int set_except(struct set *p1, struct set *p2);
+
 
 void main(void)
 {
