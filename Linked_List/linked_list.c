@@ -21,7 +21,7 @@ int main(void)
 {
 	int sec;
 	struct list *linked_list;
-	linked_list = (struct list*) malloc( sizeof(struct list) );
+	linked_list = (struct list*) malloc( sizeof(struct list));
 	++listlen;
 	linked_list->a = listlen;
 	linked_list->next = NULL;
